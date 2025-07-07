@@ -1,0 +1,24 @@
+{
+   "redis":{
+      "queues":{
+         "out": "q-demo"
+      }
+   },
+   "metrics":{
+      "send": 300000,
+      "raw":[
+         { "tag": "app.move", "alias":"move", "type":"boolean" },
+         { "tag": "device.dio0", "alias":"ignition", "type":"boolean" },
+         { "tag": "device.Vin", "alias":"dcVolt", "type":"number" },
+         { "tag": "device.T", "alias":"board_temp", "type":"number" },
+         { "tag": "device.pow3", "alias":"pow_fail", "type":"boolean" },
+         { "tag": "device.pow.fail", "alias":"pow_fail", "type":"boolean" },
+         { "tag": "can.engine.rotation", "alias":"rpm", "type":"number" },
+         { "tag": "can.engine.fuel.level", "alias":"fuel_level", "type":"number" },
+         { "tag": "can.engine.oil.temp", "alias":"oil_temp", "type":"number" },
+         { "tag": "can.engine.total.fuel", "alias":"total_fuel", "type":"number" },
+         { "tag": "can.engine.total.hours", "alias":"total_hours", "type":"number" },
+         { "tag": "can.engine.coolant.temp", "alias":"coolant_temp", "type":"number" }
+      ]      
+   }
+}
